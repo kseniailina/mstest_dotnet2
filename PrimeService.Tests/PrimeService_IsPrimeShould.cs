@@ -17,10 +17,10 @@ namespace Prime.UnitTests.Services
         [TestMethod]
         public void ReturnFalseGivenValueOf1()
         {
-            var result = _primeService.IsPrime(1);
-            
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            
+            var result = _primeService.IsPrime(1);
 
             Assert.IsFalse(result, $"1 should not be prime");
         }
@@ -29,21 +29,21 @@ namespace Prime.UnitTests.Services
         [Ignore]
         public void IgnoredTest()
         {
-            var result = _primeService.IsPrime(1);
-            
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
-
+            
+            var result = _primeService.IsPrime(1);
+         
             Assert.IsFalse(result, $"1 should not be prime");
         }
 
         [TestMethod]
         public void ReturnFalseGivenValueOf3()
-        {
-            var result = _primeService.IsPrime(3);
-
+        {            
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+
+            var result = _primeService.IsPrime(3);
 
             Assert.IsFalse(result, $"1 should not be prime");
         }
@@ -51,10 +51,10 @@ namespace Prime.UnitTests.Services
         [TestMethod]
         public void ReturnFalseGivenValueOf2()
         {
-            var result = _primeService.IsPrime(2);
-
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            
+            var result = _primeService.IsPrime(2);
             
             Assert.IsFalse(result, $"1 should not be prime");
         }
