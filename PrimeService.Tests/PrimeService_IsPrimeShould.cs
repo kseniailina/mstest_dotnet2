@@ -8,17 +8,20 @@ namespace Prime.UnitTests.Services
     public class PrimeService_IsPrimeShould
     {
         private readonly PrimeService _primeService;
-
+        
         public PrimeService_IsPrimeShould()
         {
             _primeService = new PrimeService();
         }
+        
+        public TestContext TestContext { get; set; }
 
         [TestMethod]
         public void ReturnFalseGivenValueOf1()
         {
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
             
             var result = _primeService.IsPrime(1);
 
@@ -31,6 +34,7 @@ namespace Prime.UnitTests.Services
         {
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
             
             var result = _primeService.IsPrime(1);
          
@@ -42,6 +46,7 @@ namespace Prime.UnitTests.Services
         {            
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
 
             var result = _primeService.IsPrime(3);
 
@@ -53,6 +58,7 @@ namespace Prime.UnitTests.Services
         {
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
             
             Assert.IsFalse(true, $"1 should not be prime");
         }
