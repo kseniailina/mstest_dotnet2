@@ -52,6 +52,7 @@ namespace Prime.UnitTests.Services
             Assert.IsFalse(result, $"1 should not be prime");
         }
 
+        
         [TestMethod]
         public void ReturnFalseGivenValueOf2()
         {
