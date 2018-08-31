@@ -29,7 +29,6 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
-        [Ignore]
         public void IgnoredTest()
         {
             Console.WriteLine("some stdOut text");
