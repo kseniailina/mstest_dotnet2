@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using Xunit;
 
 namespace Prime.UnitTests.Services
 {
+
     public class PrimeService_SecondTestClass
     {
         [Fact]
