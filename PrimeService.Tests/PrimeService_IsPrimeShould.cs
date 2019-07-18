@@ -27,6 +27,15 @@ namespace Prime.UnitTests.Services
 
             Assert.IsFalse(result, $"1 should not be prime");
         }
+        
+        [TestMethod]
+        public void TestConsoleOutput()
+        {
+            String propertyValue = TestContext.GetType().GetProperty("myVar").ToString(); 
+            Console.WriteLine(propertyValue);
+            
+            Assert.IsNotNull(propertyValue);
+        }
 
         [TestMethod]
         [Ignore]
