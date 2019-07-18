@@ -31,7 +31,7 @@ namespace Prime.UnitTests.Services
         [TestMethod]
         public void TestConsoleOutput()
         {
-            String propertyValue = TestContext.GetType().GetProperty("myVar").ToString(); 
+            String propertyValue = TestContext.GetType().GetProperty("system.myVar").ToString(); 
             Console.WriteLine("system.myVar = " + propertyValue);
             
             Assert.IsNotNull(propertyValue);
