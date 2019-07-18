@@ -32,7 +32,7 @@ namespace Prime.UnitTests.Services
         public void TestConsoleOutput()
         {
             String propertyValue = TestContext.GetType().GetProperty("myVar").ToString(); 
-            Console.WriteLine(propertyValue);
+            Console.WriteLine("system.myVar = " + propertyValue);
             
             Assert.IsNotNull(propertyValue);
         }
