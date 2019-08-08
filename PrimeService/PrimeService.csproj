@@ -3,6 +3,10 @@
   <PropertyGroup>
     
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    
+    <Configurations>Debug;Release;Clean</Configurations>
+    
+    <Platforms>AnyCPU;x64;x86</Platforms>
 
   </PropertyGroup>
 
