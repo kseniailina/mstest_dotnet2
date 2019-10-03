@@ -111,5 +111,35 @@ namespace Prime.UnitTests.Services
             
             Assert.IsFalse(true, $"1 should not be prime");
         }
+        
+        [TestMethod]
+        public void žluťoučký()
+        {
+            Console.WriteLine("some stdOut text");
+            Console.Error.WriteLine("Příliš žluťoučký kůň úpěl ďábelské ódy");
+            TestContext.WriteLine("message from test context");
+            
+            Assert.IsFalse(true, $"1 should not be prime");
+        }
+        
+        [TestMethod]
+        public void ทดสอบนะจ๊ะ()
+        {
+            Console.WriteLine("some stdOut text");
+            Console.Error.WriteLine("ทดสอบนะจ๊ะ ทดสอบนะจ๊ะ ทดสอบนะจ๊ะ ทดสอบนะจ๊ะ ทดสอบนะจ๊ะ ทดสอบนะจ๊ะ");
+            TestContext.WriteLine("message from test context");
+            
+            Assert.IsFalse(true, $"1 should not be prime");
+        }
+        
+        [TestMethod]
+        public void लोमड़ी()
+        {
+            Console.WriteLine("some stdOut text");
+            Console.Error.WriteLine("एक जल्दी भूरी लोमड़ी आलसी कुत्ते पर कूदता");
+            TestContext.WriteLine("message from test context");
+            
+            Assert.IsFalse(true, $"1 should not be prime");
+        }
     }
 }
