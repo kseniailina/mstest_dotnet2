@@ -93,16 +93,6 @@ namespace Prime.UnitTests.Services
         }
         
         [TestMethod]
-        public void وضع ابن()
-        {
-            Console.WriteLine("some stdOut text");
-            Console.Error.WriteLine("وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.");
-            TestContext.WriteLine("message from test context");
-            
-            Assert.IsFalse(true, $"1 should not be prime");
-        }
-        
-        [TestMethod]
         public void Римский的西北边缘()
         {
             Console.WriteLine("some stdOut text");
