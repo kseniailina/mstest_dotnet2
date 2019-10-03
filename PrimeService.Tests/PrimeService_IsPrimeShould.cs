@@ -71,5 +71,15 @@ namespace Prime.UnitTests.Services
             
             Assert.IsFalse(true, $"1 should not be prime");
         }
+        
+        [TestMethod]
+        public void 有永定河流经老城西南()
+        {
+            Console.WriteLine("some stdOut text");
+            Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
+            
+            Assert.IsFalse(true, $"1 should not be prime");
+        }
     }
 }
