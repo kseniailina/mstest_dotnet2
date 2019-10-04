@@ -143,7 +143,7 @@ namespace Prime.UnitTests.Services
         }
         
         [TestMethod]
-        public void وضع ابن()
+        public void ابن()
         {
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.");
