@@ -143,10 +143,10 @@ namespace Prime.UnitTests.Services
         }
         
         [TestMethod]
-        public void Iñtërnâtiônàlizætiøn☃💪()
+        public void وضع ابن()
         {
             Console.WriteLine("some stdOut text");
-            Console.Error.WriteLine("Iñtërnâtiônàlizætiøn☃💪");
+            Console.Error.WriteLine("وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.");
             TestContext.WriteLine("message from test context");
             
             Assert.IsFalse(true, $"1 should not be prime");
