@@ -153,7 +153,7 @@ namespace Prime.UnitTests.Services
         }
         
         [TestMethod]
-        public void Iñtërnâtiônàlizætiøn☃💪()
+        public void Iñtërnâtiônàlizætiøn()
         {
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("Iñtërnâtiônàlizætiøn☃💪");
