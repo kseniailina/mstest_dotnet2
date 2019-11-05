@@ -61,6 +61,18 @@ namespace Prime.UnitTests.Services
 
             Assert.IsFalse(result, $"1 should not be prime");
         }
+        
+        [TestMethod]
+        public void ReturnFalseGivenValueOf3()
+        {            
+            Console.WriteLine("some stdOut text");
+            Console.Error.WriteLine("some stdErr text");
+            TestContext.WriteLine("message from test context");
+
+            var result = _primeService.IsPrime(3);
+
+            Assert.IsFalse(result, $"1 should not be prime");
+        }
 
         [TestMethod]
         public void ReturnFalseGivenValueOf2()
