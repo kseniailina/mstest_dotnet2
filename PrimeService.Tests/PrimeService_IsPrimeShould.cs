@@ -161,15 +161,5 @@ namespace Prime.UnitTests.Services
             
             Assert.IsFalse(true, $"1 should not be prime");
         }
-        
-        [TestMethod]
-        public void AppTest.testAssert7()
-        {
-            Console.WriteLine("some stdOut text");
-            Console.Error.WriteLine("AppTest.testAssert7");
-            TestContext.WriteLine("message from test context");
-            
-            Assert.IsFalse(true, $"1 should not be prime");
-        }
     }
 }
