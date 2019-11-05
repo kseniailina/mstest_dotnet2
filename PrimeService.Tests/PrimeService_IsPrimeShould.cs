@@ -63,7 +63,7 @@ namespace Prime.UnitTests.Services
         }
         
         [TestMethod]
-        public void ReturnFalseGivenValueOf3()
+        public void testAssert21()
         {            
             Console.WriteLine("some stdOut text");
             Console.Error.WriteLine("some stdErr text");
